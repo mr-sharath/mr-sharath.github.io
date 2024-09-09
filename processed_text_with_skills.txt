@@ -1,0 +1,110 @@
+
+education
+skills
+experience
+projects
+profiles
+Sharath Kumar Reddy .
+Deep Learning and AI Engineer
+about me
+Sharath Kumar Reddy is a highly skilled Data Scientist and AI researcher with a Master's degree in Data Science from the University of Houston, specializing in Artificial Intelligence and Machine Learning.
+With a robust background in developing AI solutions and extensive experience in data analysis, Sharath has successfully deployed multiple AI solutions and conducted comprehensive EDA for various clients.
+Sharath's technical expertise spans a wide range of programming languages, tools, and machine learning techniques and Large Language Models.
+In addition to his professional accomplishments, he has led innovative projects and held leadership roles, showcasing his ability to drive impactful technological advancements.
+Phone
++1 (346) 227-3943 / +91 957056365
+Email
+skrkapu@gmail.com
+
+
+
+education
+Aug 2023 - May 2025
+Masters in Engineering Data Science
+Coursework: Artificial Intelligence, Machine Learning, Deep Learning, Neural Networks, Data Analysis and Visualization, DBMT, Big Data Analytics, Cloud Computing
+2022 - 2023
+Machine Learning Specialisation
+Concepts: Supervised and Unsupervised Learning techniques including Regression, Classification, Decision Trees, Random Forest, Clustering, Reinforcement Learning
+Aug 2018 - May 2022
+Bachelor of Technology
+Electronics and Communication Engineering: Digital Image Processing, Signals and Systems
+skills
+90%
+85%
+90%
+85%
+70%
+75%
+90%
+80%
+85%
+80%
+90%
+70%
+70%
+60%
+experience
+Jul 2022 - Jul 2023 AI Engineer Deloitte Consulting Hyderabad, India Created data automation product using Python, Apache Airflow to improve speed of updating and up-keeping stakeholder data for over 25 Agencies.
+Developed a fast and versatile ML model with TensorFlow that swiftly identified contradictions across various contexts, processing 1,000 documents in under an hour.
+Leveraged scikit-learn algorithms to predict risk factors with an 87% precision, aiding financial clients in reducing potential losses by up to 10% annually
+															Automated the transformation of raw audit files into a CDM model using generative AI and NLP methods reducing manual work hours for Audit Analytics Specialists by 70%.
+Created 3 automated monitoring systems using Large Language Models and chain of thought prompting to assess an RAG chatbot in production, ensuring consistent performance and relevance of responses.
+Utilized Python to implement Unsupervised techniques for Anomaly detection of 2TB unstructured data.
+Jul 2022 - Jul 2023
+AI Engineer
+Created data automation product using Python, Apache Airflow to improve speed of updating and up-keeping stakeholder data for over 25 Agencies.
+Developed a fast and versatile ML model with TensorFlow that swiftly identified contradictions across various contexts, processing 1,000 documents in under an hour.
+Leveraged scikit-learn algorithms to predict risk factors with an 87% precision, aiding financial clients in reducing potential losses by up to 10% annually
+															Automated the transformation of raw audit files into a CDM model using generative AI and NLP methods reducing manual work hours for Audit Analytics Specialists by 70%.
+Created 3 automated monitoring systems using Large Language Models and chain of thought prompting to assess an RAG chatbot in production, ensuring consistent performance and relevance of responses.
+Utilized Python to implement Unsupervised techniques for Anomaly detection of 2TB unstructured data.
+Glance Bengaluru, India Analyzed 10 newly launched games on the app, using Pandas and Common Table Expressions (CTE).
+Implemented robust data pipelines using SQL and Apache Spark, enhancing data processing speed by 35%.
+Presented 5+ dashboards & visual reports using Tableau, enabling stakeholders to make data-driven decisions.
+Engineered deep learning models to analyze user behavior and engagement patterns on the Glance lockscreen application, leading to a 20% increase in personalized content delivery accuracy.
+Developed RESTful APIs using Python to integrate disparate data sources over 5TB of Audit data, facilitating seamless data flow and real-time analytics.
+Deployed predictive models to forecast user behavior and gaming trends, resulting in a 15% increase in personalized content delivery effectiveness.
+Jun 2021 - Jun 2022 Data Scientist
+Analyzed 10 newly launched games on the app, using Pandas and Common Table Expressions (CTE).
+Implemented robust data pipelines using SQL and Apache Spark, enhancing data processing speed by 35%.
+Presented 5+ dashboards & visual reports using Tableau, enabling stakeholders to make data-driven decisions.
+Engineered deep learning models to analyze user behavior and engagement patterns on the Glance lockscreen application, leading to a 20% increase in personalized content delivery accuracy.
+Developed RESTful APIs using Python to integrate disparate data sources over 5TB of Audit data, facilitating seamless data flow and real-time analytics.
+Deployed predictive models to forecast user behavior and gaming trends, resulting in a 15% increase in personalized content delivery effectiveness.
+Jun 2021 - Jun 2022
+Data Scientist
+Feb 2019 - May 2022 Head of Research and Development Cell Center for Cognitive Activities NIT Durgapur chapter Led a team of 25 members organizers showcasing Assistive Technology projects at TECH MELA, the Annual Fest
+															 and Spearheaded a DIY Home-security workshop every year, instructing 100+ freshmen in building IOT projects.
+Feb 2019 - May 2022
+Head of Research and Development Cell
+Led a team of 25 members organizers showcasing Assistive Technology projects at TECH MELA, the Annual Fest
+															 and Spearheaded a DIY Home-security workshop every year, instructing 100+ freshmen in building IOT projects.
+PROJECTS
+TWEET EMOTION RECOGNITION
+AI CHATBOT
+Small Language Model
+REAL-TIME DOCUMENT INTERACTION SYSTEM
+HEAD GESTURE CONTROLLED WHEEL-CHAIR
+Movie Recommendation System
+DEEP LEARNING POWERED IMAGE SUPER-RESOLUTION
+AUTOMATED DATA PIPELINE
+STOCK PRICE PREDICTION
+profiles
+© copyright Sharath.w
+design and developed by themesine
+
+Skills:
+Python programming: 90%
+Machine Learning: 85%
+Large Language Models: 90%
+TensorFlow: 85%
+pyTorch: 70%
+Keras: 75%
+Natural Language Processing: 90%
+SQL: 80%
+Tableau: 85%
+Azure/ AWS: 80%
+ETL Pipelines: 90%
+Apache Spark: 70%
+Airflow: 70%
+Docker/ Kubernetes: 60%
