@@ -109,19 +109,10 @@
 				<div class="header-text">
 					<h2> <span></span> <br> Sharath Kumar Reddy <span>.</span>   </h2>
 					
-					<p>Deep Learning and AI Engineer</p>
+					<p> AI Engineer and Data Scientist</p>
 					<a href="https://drive.google.com/file/d/1t7OdjvrpAQcAO4wwey9hLtzKSovsGFou/view?usp=sharing" download> RESUME </a>
 					
 				</div><!--/.header-text-->
-
-				<!-- Logos container -->
-				<div class="logo-container" style="margin-top: 20px; display: flex; justify-content: center; align-items: center;">
-					<img src="assets/images/portfolio/uh_logo.svg" alt="Logo 1" style="width: 100px; height: auto; margin: 0 50px;">
-					<img src="assets/images/portfolio/deloitte_logo.png" alt="Logo 2" style="width: 150px; height: auto; margin: 0 50px;">
-					<img src="assets/images/portfolio/nitdgp_logo.png" alt="Logo 3" style="width: 150px; height: auto; margin: 0 50px;">
-					<img src="assets/images/portfolio/glance_logo.png" alt="Logo 4" style="width: 150px; height: auto; margin: 0 50px;">
-
-				</div>
 
 			</div><!--/.col-->
 		</div><!-- /.row-->
@@ -141,7 +132,7 @@
 						<div class="col-sm-6">
 							<div class="single-about-txt">
 								<h3>
-									Sharath Kumar Reddy is a highly skilled Data Scientist and AI researcher with a Master's degree in Data Science from the University of Houston, specializing in Artificial Intelligence and Machine Learning. 
+									Sharath Kumar Reddy is a highly skilled Data Scientist and Deep Learning Engineer with a Master's degree in Data Science from the University of Houston, specializing in Artificial Intelligence and Machine Learning. 
 								</h3>
 								<p>
 									With a robust background in developing AI solutions and extensive experience in data analysis, Sharath has successfully deployed multiple AI solutions and conducted comprehensive EDA for various clients. Sharath's technical expertise spans a wide range of programming languages, tools, and machine learning techniques and Large Language Models. In addition to his professional accomplishments, he has led innovative projects and held leadership roles, showcasing his ability to drive impactful technological advancements.								</p>
@@ -149,7 +140,7 @@
 									<div class="col-sm-4">
 										<div class="single-about-add-info">
 											<h3>Phone</h3>
-											<p>+1 (346) 227-3943 / +91 957056365</p>
+											<p>+1 (346) 227-3943 </p>
 										</div>
 									</div>
 									<div class="col-sm-4">
@@ -277,6 +268,31 @@
 		</section><!--/.education-->
 		<!--education end -->
 
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				let skillSection = document.querySelector('.skills');
+				let progressBars = document.querySelectorAll('.progress-bar');
+		
+				// Create intersection observer
+				let observer = new IntersectionObserver(function (entries) {
+					entries.forEach(entry => {
+						if (entry.isIntersecting) {
+							// For each progress bar, set the width to the desired value
+							progressBars.forEach(bar => {
+								let value = bar.getAttribute('aria-valuenow');
+								bar.style.width = value + '%';
+							});
+							// Stop observing once the animation has started
+							observer.disconnect();
+						}
+					});
+				}, { threshold: 0.5 }); // Trigger when 50% of the skills section is visible
+		
+				// Start observing the skills section
+				observer.observe(skillSection);
+			});
+		</script>
+		
 		<!--skills start -->
 		<section id="skills" class="skills">
 				<div class="skill-content">
@@ -291,9 +307,8 @@
 										<span class="progressText">Python programming</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-													  
-												</div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 90;"></div>
+
 											</div>
 											<h3>90%</h3>	
 										</div>
@@ -302,9 +317,8 @@
 										<span class="progressText">Machine Learning</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 85;"></div>
+
 											</div>
 											<h3>85%</h3>	
 										</div>
@@ -313,9 +327,8 @@
 										<span class="progressText">Large Language Models</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 90;"></div>
+
 											</div>
 											<h3>90%</h3>	
 										</div>
@@ -324,9 +337,8 @@
 										<span class="progressText">TensorFlow</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 85;"></div>
+
 											</div>
 											<h3>85%</h3>	
 										</div>
@@ -335,9 +347,8 @@
 										<span class="progressText">pyTorch</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 70;"></div>
+
 											</div>
 											<h3>70%</h3>	
 										</div>
@@ -346,9 +357,8 @@
 										<span class="progressText">Keras</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 75;"></div>
+
 											</div>
 											<h3>75%</h3>	
 										</div>
@@ -357,9 +367,8 @@
 										<span class="progressText">Natural Language Processing</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 90;"></div>
+
 											</div>
 											<h3>90%</h3>	
 										</div>
@@ -372,9 +381,8 @@
 										<span class="progressText">SQL</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
-													
-												</div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 80;"></div>
+
 											</div>
 											<h3>80%</h3>	
 										</div>
@@ -383,9 +391,8 @@
 										<span class="progressText">Tableau</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 85;"></div>
+
 											</div>
 											<h3>85%</h3>	
 										</div>
@@ -394,9 +401,8 @@
 										<span class="progressText">Azure/ AWS</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 80;"></div>
+
 											</div>
 											<h3>80%</h3>	
 										</div>
@@ -405,9 +411,8 @@
 										<span class="progressText">ETL Pipelines</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 90;"></div>
+
 											</div>
 											<h3>90%</h3>	
 										</div>
@@ -416,9 +421,8 @@
 										<span class="progressText"> Apache Spark </span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="">
-												    
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 70;"></div>
+
 											</div>
 											<h3>70%</h3>	
 										</div>
@@ -427,9 +431,8 @@
 										<span class="progressText"> Airflow</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 70;"></div>
+
 											</div>
 											<h3>70%</h3>	
 										</div>
@@ -438,9 +441,8 @@
 										<span class="progressText"> Docker/ Kubernetes</span>
 										<div class="single-progress-txt">
 											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="--progress-percent: 60;"></div>
+
 											</div>
 											<h3>60%</h3>	
 										</div>
